@@ -16,9 +16,6 @@
     "jsonwebtoken": "^9.0.2",
     "@vercel/postgres": "^0.5.1"
   },
-  "engines": {
-    "node": "20.x"
-  },
   "keywords": ["health", "ai", "assistant", "medical", "advice"],
   "author": "PreAid Team",
   "license": "MIT"
