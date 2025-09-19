@@ -1,0 +1,25 @@
+{
+  "name": "preaid-health-assistant",
+  "version": "2.0.0",
+  "description": "AI-Powered Health Assistant with Authentication",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "@vercel/postgres": "^0.5.1"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["health", "ai", "assistant", "medical", "advice"],
+  "author": "PreAid Team",
+  "license": "MIT"
+}
